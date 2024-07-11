@@ -1,0 +1,55 @@
+.NavBar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(246, 252, 252);
+    box-shadow: 1px 1px 4px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.NavBar-logo{
+    width: 50%;
+    height: auto;
+}
+.NavBar-logo img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.NavBar-links{
+    width: 50%;
+    height: auto;
+}
+.NavBar-links ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.NavBar-links ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.NavBar-links ul li .btn{
+    background-color: rgb(17, 23, 107);
+    width: max-content;
+    height: max-content;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+}
+.NavBar-links ul li a:hover{
+    color: rgb(184, 107, 8);
+}
+.bi-person{
+    font-size: 22px;
+    color: black;
+}
